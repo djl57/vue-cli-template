@@ -9,6 +9,11 @@ export default new Router({
       path: '/',
       name: '',
       component: () => import('@/views/home.vue')
+    },
+    {
+      path: '/svg',
+      name: 'svg',
+      component: () => import('@/views/svg.vue')
     }
   ]
 })

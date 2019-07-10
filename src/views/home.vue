@@ -1,18 +1,26 @@
 <template>
-  <div>
-    <div>
-      <h2>icon</h2>
-      <svg-icon icon-class='left' class="svg"></svg-icon>
+  <div class="home">
+    <div class="nav" v-for="(item, index) in navs" :key="index">
+      <router-link :to="item.link">{{item.name}}</router-link>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  
-}
+  data() {
+    return {
+      navs: [{ name: "svg", link: "/svg" }]
+    };
+  }
+};
 </script>
 
 <style lang='scss' scoped>
-  
+.home {
+  display: flex;
+}
+.nav {
+  padding: 10px;
+}
 </style>
