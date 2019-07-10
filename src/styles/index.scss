@@ -10,7 +10,22 @@
     font-size: vw(14)
   }
 }
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 480px) {
+  body {
+    font-size: vw00(14)
+  }
+}
+@media screen and (min-width: 600px) {
+  body {
+    font-size: vw0(14)
+  }
+}
+@media screen and (min-width: 720px) {
+  body {
+    font-size: vw01(14)
+  }
+}
+@media screen and (min-width: 1024px) {
   body {
     font-size: vw1(14)
   }

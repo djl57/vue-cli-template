@@ -11,8 +11,8 @@ export default {};
 <style lang='scss' scoped>
 @import '../styles/functions.scss';
 .rem {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: rem(1020);
+  height: rem(100);
   border: 2px solid red;
   font-size: rem(14);
 }

@@ -2,8 +2,17 @@
 @function vw($px) {
   @return ($px / 375) * 100vw;
 }
-@function vw1($px) {
+@function vw00($px) {
+  @return ($px / 480) * 100vw;
+}
+@function vw0($px) {
+  @return ($px / 600) * 100vw;
+}
+@function vw01($px) {
   @return ($px / 720) * 100vw;
+}
+@function vw1($px) {
+  @return ($px / 1024) * 100vw;
 }
 @function vw2($px) {
   @return ($px / 1440) * 100vw;
