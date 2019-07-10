@@ -2,6 +2,7 @@
 |--|--|
 |master|基础配置：normalize.css、svg、sass|
 |flexible|基础配置+sass函数（vh、vw、rem转换）|
+|xlsx|flexible配置+excel导出导入|
 
 ## Project setup
 ```
