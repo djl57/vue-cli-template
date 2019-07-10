@@ -10,7 +10,11 @@
 export default {
   data() {
     return {
-      navs: [{ name: "svg", link: "/svg" }]
+      navs: [
+        { name: "svg", link: "/svg" },
+        { name: "flexible", link: "/flexible" },
+        { name: "flexRem", link: "/flexRem" },
+      ]
     };
   }
 };

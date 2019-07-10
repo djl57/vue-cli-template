@@ -14,6 +14,16 @@ export default new Router({
       path: '/svg',
       name: 'svg',
       component: () => import('@/views/svg.vue')
+    },
+    {
+      path: '/flexible',
+      name: 'flexible',
+      component: () => import('@/views/flexible.vue')
+    },
+    {
+      path: '/flexRem',
+      name: 'flexRem',
+      component: () => import('@/views/flexRem.vue')
     }
   ]
 })

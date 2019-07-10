@@ -1,7 +1,7 @@
 |分支|描述|
 |--|--|
 |master|基础配置：normalize.css、svg、sass|
-|flexible|基础配置+sass函数（vh、vw、rem转换）|
+|flexible|基础配置+sass函数（vh、vw、rem转换）+打包配置（vue.config.js）|
 
 ## Project setup
 ```

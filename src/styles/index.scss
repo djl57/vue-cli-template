@@ -1,7 +1,41 @@
 @import './variables.scss';
+@import './functions.scss';
 @import './mixin.scss';
 @import './transition.scss';
 @import './app.scss';
+
+// 自适应的方案一，对应functions.scss的vw、vw1、vw2和组件flexiable.vue
+@media screen and (min-width: 200px) {
+  body {
+    font-size: vw(14)
+  }
+}
+@media screen and (min-width: 500px) {
+  body {
+    font-size: vw1(14)
+  }
+}
+@media screen and (min-width: 1440px) {
+  body {
+    font-size: vw2(14)
+  }
+}
+
+// 自适应的方案二，对应functions.scss的rem和组件flexRem.vue
+html {
+  @media screen and (min-width: 320px) {
+    font-size: ($vm_fontsize / (750 / 2)) * 100vw;
+  }
+  @media screen and (min-width: 540px) {
+    font-size: ($vm_fontsize / 750) * 100vw;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: ($vm_fontsize / 1024) * 100vw;
+  }
+  @media screen and (min-width: 1440px) {
+    font-size: ($vm_fontsize / 1440) * 100vw;
+  }
+}
 
 ul,li {
   list-style: none;
