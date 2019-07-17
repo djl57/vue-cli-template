@@ -14,6 +14,7 @@ export default {
         { name: "svg", link: "/svg" },
         { name: "flexible", link: "/flexible" },
         { name: "flexRem", link: "/flexRem" },
+        { name: "xlsx", link: "/xlsx" },
       ]
     };
   }
