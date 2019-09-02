@@ -14,6 +14,11 @@ export default new Router({
       path: '/svg',
       name: 'svg',
       component: () => import('@/views/svg.vue')
+    },
+    {
+      path: '/map01',
+      name: 'map01',
+      component: () => import('@/views/map01.vue')
     }
   ]
 })
